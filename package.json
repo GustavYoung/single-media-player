@@ -1,6 +1,7 @@
 {
   "name": "single-media-player",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "main.js",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -23,16 +24,19 @@
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
+    "videogular2": "^5.5.1",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
     "@angular/cli": "1.4.3",
     "@angular/compiler-cli": "^4.2.4",
     "@angular/language-service": "^4.2.4",
+    "@types/core-js": "^0.9.43",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "~3.1.1",
+    "electron": "1.7.6",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
