@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## First use and development
+
+To get the electron window working at full screen:
+
+first "npm install"
+Second "ng serve" wait till transpiller ends
+third "./node_modules/.bin/electron ."
+There u go.
+
+In order to see the devTools uncomment:
+
+win.webContents.openDevTools();
+
+In the main.js file at the root of the project.
